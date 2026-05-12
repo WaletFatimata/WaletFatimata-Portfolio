@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fatimata Walet — Portfolio · Software Engineer & Digital Consultant</title>
+  <meta name="description" content="Software Engineer & Digital Communication Consultant based in Bamako. Web development, community management, digital strategy." />
+  <meta name="author" content="Fatimata Walet Mohamed Ali" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Mesh Background -->
+<div class="mesh-bg" aria-hidden="true">
+  <span></span><span></span><span></span>
+</div>
+
+<!-- ═══════════════════ NAV ═══════════════════════════════ -->
+<nav role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">FW.</a>
+
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#qr">Quick contact</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <div class="lang-switcher" aria-label="Language">
+        <button class="lang-btn" onclick="location.href='index.html'" aria-pressed="false">FR</button>
+        <button class="lang-btn active" onclick="location.href='en.html'" aria-pressed="true">EN</button>
+      </div>
+      <button class="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<nav class="mobile-menu" aria-label="Mobile menu">
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#qr">Quick contact</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- ═══════════════════ HERO ══════════════════════════════ -->
+<section id="hero" aria-labelledby="hero-title">
+  <div class="wrapper">
+    <div class="hero-grid">
+
+      <!-- Left -->
+      <div>
+        <div class="hero-badge" data-aos="fade-down">
+          Available for freelance projects
+        </div>
+
+        <h1 id="hero-title" class="hero-title" data-aos="fade-up" data-aos-delay="80">
+          Software Engineer<br/>
+          <span class="gradient-text">&amp; Digital</span><br/>
+          Consultant
+        </h1>
+
+        <p class="hero-sub" data-aos="fade-up" data-aos-delay="160">
+          I build high-performance web solutions and high-impact communication strategies for organizations and startups across Africa and beyond.
+        </p>
+
+        <div class="hero-cta" data-aos="fade-up" data-aos-delay="240">
+          <a href="#contact" class="btn-primary">
+            ✉ Let's work together
+          </a>
+          <a href="#portfolio" class="btn-secondary">
+            View my work →
+          </a>
+        </div>
+
+        <div class="hero-stats" data-aos="fade-up" data-aos-delay="320">
+          <div class="stat-item">
+            <div class="stat-num">5+</div>
+            <div class="stat-label">Years experience</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">8+</div>
+            <div class="stat-label">Projects delivered</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">4</div>
+            <div class="stat-label">Languages</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Visual cards -->
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-card-stack">
+          <div class="hero-card">
+            <div class="hero-card-icon">🖥️</div>
+            <div class="hero-card-title">Web Development</div>
+            <div class="hero-card-text">React · Symfony · Vue.js · Node.js</div>
+            <div class="tag-cloud">
+              <span class="tag">Frontend</span>
+              <span class="tag">Backend</span>
+              <span class="tag">CMS</span>
+            </div>
+          </div>
+          <div class="hero-card">
+            <div class="hero-card-icon">📣</div>
+            <div class="hero-card-title">Digital Communication</div>
+            <div class="hero-card-text">Strategy · Content · Social media</div>
+            <div class="tag-cloud">
+              <span class="tag">Community</span>
+              <span class="tag">SEO</span>
+              <span class="tag">Branding</span>
+            </div>
+          </div>
+          <div class="hero-card">
+            <div class="hero-card-icon">🌍</div>
+            <div class="hero-card-title">Social Impact</div>
+            <div class="hero-card-text">NGO · Humanitarian · Africa Tech</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ ABOUT / BENTO ═════════════════════ -->
+<section id="about" aria-labelledby="about-title">
+  <div class="wrapper">
+    <div data-aos="fade-up">
+      <p class="section-label">About</p>
+      <h2 id="about-title" class="section-title">Hybrid Profile<br/>IT × Communication</h2>
+      <p class="section-desc">
+        Software Engineering graduate from Universiapolis (Morocco), I combine technical expertise with communication skills to help organizations achieve their digital transformation.
+      </p>
+    </div>
+
+    <div class="bento-grid">
+
+      <div class="bento-card span-2" data-aos="fade-up" data-aos-delay="60">
+        <span class="bento-card-icon">🚀</span>
+        <span class="bento-card-label">My story</span>
+        <h3 class="bento-card-title">Bamako ↔ Agadir ↔ International</h3>
+        <p class="bento-card-text">
+          Born in Bamako, trained in Morocco, active across West Africa — I build digital solutions for humanitarian organizations, SMEs and impact-driven projects. Currently Communication & Database Manager at <strong>Sahel Solidaire NGO</strong>, I simultaneously run freelance missions in web development and digital consulting.
+        </p>
+      </div>
+
+      <div class="bento-card tall" data-aos="fade-up" data-aos-delay="120">
+        <span class="bento-card-icon">⚡</span>
+        <span class="bento-card-label">Technical skills</span>
+        <h3 class="bento-card-title">My stack</h3>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-item">
+            <div class="skill-bar-head"><span>React / Vue.js</span><span>85%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.85"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-head"><span>Symfony / PHP</span><span>75%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.75"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-head"><span>UI/UX Design</span><span>80%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.80"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-head"><span>Databases</span><span>75%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.75"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-head"><span>Community Management</span><span>90%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.90"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-head"><span>SEO / Digital Strategy</span><span>80%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.80"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bento-card" data-aos="fade-up" data-aos-delay="180">
+        <span class="bento-card-icon">🗣️</span>
+        <span class="bento-card-label">Languages</span>
+        <h3 class="bento-card-title">Multicultural</h3>
+        <div class="lang-flags">
+          <div class="lang-item">
+            <div class="lang-dot" style="background:#3ecfcf"></div>
+            <span class="lang-name">French</span>
+            <span class="lang-level">Fluent</span>
+          </div>
+          <div class="lang-item">
+            <div class="lang-dot" style="background:#7c6af7"></div>
+            <span class="lang-name">English</span>
+            <span class="lang-level">Intermediate</span>
+          </div>
+          <div class="lang-item">
+            <div class="lang-dot" style="background:#f06a9e"></div>
+            <span class="lang-name">Tamasheq</span>
+            <span class="lang-level">Native</span>
+          </div>
+          <div class="lang-item">
+            <div class="lang-dot" style="background:#f6c90e"></div>
+            <span class="lang-name">Bambara</span>
+            <span class="lang-level">Fluent</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bento-card" data-aos="fade-up" data-aos-delay="240">
+        <span class="bento-card-icon">🏆</span>
+        <span class="bento-card-label">Coursera Certifications</span>
+        <h3 class="bento-card-title">Continuous learning</h3>
+        <ul style="list-style:none;margin-top:12px;display:flex;flex-direction:column;gap:8px;">
+          <li style="font-size:.8rem;color:var(--text2);display:flex;gap:8px;"><span style="color:var(--accent)">→</span> Advanced SEO Strategies</li>
+          <li style="font-size:.8rem;color:var(--text2);display:flex;gap:8px;"><span style="color:var(--accent)">→</span> PHP &amp; MySQL · Web App</li>
+          <li style="font-size:.8rem;color:var(--text2);display:flex;gap:8px;"><span style="color:var(--accent)">→</span> Build Website with React</li>
+          <li style="font-size:.8rem;color:var(--text2);display:flex;gap:8px;"><span style="color:var(--accent)">→</span> Big Data · Spark &amp; Hadoop</li>
+          <li style="font-size:.8rem;color:var(--text2);display:flex;gap:8px;"><span style="color:var(--accent)">→</span> Network Security · Wireshark</li>
+        </ul>
+      </div>
+
+      <div class="bento-card" data-aos="fade-up" data-aos-delay="300" style="background:linear-gradient(135deg,rgba(124,106,247,0.12),rgba(62,207,207,0.06))">
+        <span class="bento-card-icon">🌱</span>
+        <span class="bento-card-label">Social impact</span>
+        <h3 class="bento-card-title">President — TAHANINT</h3>
+        <p class="bento-card-text">
+          Association dedicated to community development, innovation and the empowerment of women and youth in Mali.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ SERVICES ══════════════════════════ -->
+<section id="services" aria-labelledby="services-title">
+  <div class="wrapper">
+    <div data-aos="fade-up">
+      <p class="section-label">Services</p>
+      <h2 id="services-title" class="section-title">Consulting &amp;<br/>Freelance</h2>
+      <p class="section-desc">
+        Tailored services to boost your digital presence, build your tech tools and engage your communities.
+      </p>
+    </div>
+
+    <div class="services-grid">
+
+      <article class="service-card" data-aos="fade-up" data-aos-delay="60">
+        <div class="service-icon-wrap" style="background:rgba(124,106,247,0.15)">💻</div>
+        <h3 class="service-card-title">Web Development</h3>
+        <p class="service-card-text">Design and development of modern, high-performance, accessible websites — from prototype to deployment.</p>
+        <div class="service-tags">
+          <span class="service-tag">React.js</span>
+          <span class="service-tag">Vue.js</span>
+          <span class="service-tag">Symfony</span>
+          <span class="service-tag">Tailwind CSS</span>
+          <span class="service-tag">Drupal</span>
+        </div>
+      </article>
+
+      <article class="service-card" data-aos="fade-up" data-aos-delay="120">
+        <div class="service-icon-wrap" style="background:rgba(240,106,158,0.15)">📱</div>
+        <h3 class="service-card-title">Digital Communication</h3>
+        <p class="service-card-text">Building multi-channel communication strategies, compelling content creation and advocacy campaign management.</p>
+        <div class="service-tags">
+          <span class="service-tag">Editorial strategy</span>
+          <span class="service-tag">Brand identity</span>
+          <span class="service-tag">Campaigns</span>
+          <span class="service-tag">Canva</span>
+        </div>
+      </article>
+
+      <article class="service-card" data-aos="fade-up" data-aos-delay="180">
+        <div class="service-icon-wrap" style="background:rgba(62,207,207,0.15)">🔍</div>
+        <h3 class="service-card-title">SEO &amp; Search Strategy</h3>
+        <p class="service-card-text">Audit and optimization of your web platform's visibility — on-page SEO, keywords and technical performance.</p>
+        <div class="service-tags">
+          <span class="service-tag">SEO Audit</span>
+          <span class="service-tag">Content strategy</span>
+          <span class="service-tag">Analytics</span>
+        </div>
+      </article>
+
+      <article class="service-card" data-aos="fade-up" data-aos-delay="240">
+        <div class="service-icon-wrap" style="background:rgba(246,201,14,0.12)">💬</div>
+        <h3 class="service-card-title">Community Management</h3>
+        <p class="service-card-text">Managing your online communities — moderation, tailored content creation and performance reporting.</p>
+        <div class="service-tags">
+          <span class="service-tag">Facebook</span>
+          <span class="service-tag">Instagram</span>
+          <span class="service-tag">LinkedIn</span>
+          <span class="service-tag">Reporting</span>
+        </div>
+      </article>
+
+      <article class="service-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-icon-wrap" style="background:rgba(72,187,120,0.12)">📊</div>
+        <h3 class="service-card-title">Data &amp; M&amp;E Systems</h3>
+        <p class="service-card-text">Setting up data collection and analysis systems for humanitarian projects and NGOs (KoboToolbox, MySQL).</p>
+        <div class="service-tags">
+          <span class="service-tag">KoboToolbox</span>
+          <span class="service-tag">MySQL</span>
+          <span class="service-tag">M&amp;E Reports</span>
+        </div>
+      </article>
+
+      <article class="service-card" data-aos="fade-up" data-aos-delay="360">
+        <div class="service-icon-wrap" style="background:rgba(237,137,54,0.12)">🔋</div>
+        <h3 class="service-card-title">IT Management</h3>
+        <p class="service-card-text">Technical supervision of digital platforms — maintenance, infrastructure monitoring and user support.</p>
+        <div class="service-tags">
+          <span class="service-tag">Linux</span>
+          <span class="service-tag">Git</span>
+          <span class="service-tag">SteamaCo</span>
+          <span class="service-tag">Support</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ PORTFOLIO ══════════════════════════ -->
+<section id="portfolio" aria-labelledby="portfolio-title">
+  <div class="wrapper">
+    <div data-aos="fade-up">
+      <p class="section-label">Portfolio</p>
+      <h2 id="portfolio-title" class="section-title">Projects &amp;<br/>Achievements</h2>
+      <p class="section-desc">
+        A selection of my professional, community and academic projects — from code to communication.
+      </p>
+    </div>
+
+    <div class="portfolio-filter" data-aos="fade-up" data-aos-delay="80">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Development</button>
+      <button class="filter-btn" data-filter="com">Communication</button>
+      <button class="filter-btn" data-filter="social">Social impact</button>
+    </div>
+
+    <div class="portfolio-grid">
+
+      <article class="portfolio-card" data-category="com" data-aos="fade-up" data-aos-delay="60">
+        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#1a1a3e,#2d1b69)">
+          🏢<div class="portfolio-thumb-overlay"></div>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-meta">
+            <span class="portfolio-category" style="background:rgba(240,106,158,0.15);color:#f06a9e;border:1px solid rgba(240,106,158,0.3)">Communication</span>
+            <span class="portfolio-year">2024 – Present</span>
+          </div>
+          <h3 class="portfolio-title">Sahel Solidaire NGO — Digital Identity</h3>
+          <p class="portfolio-desc">Full management of digital communication, humanitarian advocacy campaigns and M&amp;E data systems.</p>
+          <div class="portfolio-stack">
+            <span class="stack-tag">Digital strategy</span>
+            <span class="stack-tag">KoboToolbox</span>
+            <span class="stack-tag">MySQL</span>
+            <span class="stack-tag">Canva</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="portfolio-card" data-category="web" data-aos="fade-up" data-aos-delay="120">
+        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#0d2137,#1a4a6e)">
+          🚗<div class="portfolio-thumb-overlay"></div>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-meta">
+            <span class="portfolio-category" style="background:rgba(124,106,247,0.15);color:#7c6af7;border:1px solid rgba(124,106,247,0.3)">Development</span>
+            <span class="portfolio-year">2023</span>
+          </div>
+          <h3 class="portfolio-title">BARACAR — Automotive E-commerce</h3>
+          <p class="portfolio-desc">Contributed to a SaaS platform for online vehicle sales — Symfony, Nuxt JS, APIs and comprehensive documentation.</p>
+          <div class="portfolio-stack">
+            <span class="stack-tag">Symfony</span>
+            <span class="stack-tag">Nuxt.js</span>
+            <span class="stack-tag">Tailwind</span>
+            <span class="stack-tag">REST API</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="portfolio-card" data-category="web" data-aos="fade-up" data-aos-delay="180">
+        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#1a2e1a,#2d5a2d)">
+          🏎️<div class="portfolio-thumb-overlay"></div>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-meta">
+            <span class="portfolio-category" style="background:rgba(124,106,247,0.15);color:#7c6af7;border:1px solid rgba(124,106,247,0.3)">Development</span>
+            <span class="portfolio-year">2023</span>
+          </div>
+          <h3 class="portfolio-title">Ultimate Cup — Event Website</h3>
+          <p class="portfolio-desc">Feature development for a motorsport event platform during the 4Tech internship (Agadir, Morocco).</p>
+          <div class="portfolio-stack">
+            <span class="stack-tag">CMS</span>
+            <span class="stack-tag">Symfony</span>
+            <span class="stack-tag">Notion</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="portfolio-card" data-category="web" data-aos="fade-up" data-aos-delay="240">
+        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#1e1a3e,#3730a3)">
+          🎨<div class="portfolio-thumb-overlay"></div>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-meta">
+            <span class="portfolio-category" style="background:rgba(124,106,247,0.15);color:#7c6af7;border:1px solid rgba(124,106,247,0.3)">Development</span>
+            <span class="portfolio-year">2022</span>
+          </div>
+          <h3 class="portfolio-title">CodingArt — Agency Website</h3>
+          <p class="portfolio-desc">UI/UX design and frontend development of the official CodingArt agency website using React.js and Tailwind CSS.</p>
+          <div class="portfolio-stack">
+            <span class="stack-tag">React.js</span>
+            <span class="stack-tag">Tailwind CSS</span>
+            <span class="stack-tag">Balsamiq</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="portfolio-card" data-category="social" data-aos="fade-up" data-aos-delay="300">
+        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#2d1b1b,#6b2737)">
+          🚗<div class="portfolio-thumb-overlay"></div>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-meta">
+            <span class="portfolio-category" style="background:rgba(62,207,207,0.12);color:#3ecfcf;border:1px solid rgba(62,207,207,0.3)">Social impact</span>
+            <span class="portfolio-year">2021 – 2022</span>
+          </div>
+          <h3 class="portfolio-title">EasyRental — Mobility Prototype</h3>
+          <p class="portfolio-desc">Business plan, economic model and prototype for a motorized vehicle rental and chauffeur services web platform.</p>
+          <div class="portfolio-stack">
+            <span class="stack-tag">Business model</span>
+            <span class="stack-tag">Prototype</span>
+            <span class="stack-tag">Enactus</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="portfolio-card" data-category="com" data-aos="fade-up" data-aos-delay="360">
+        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#1a2a1a,#2d5f4e)">
+          ☀️<div class="portfolio-thumb-overlay"></div>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-meta">
+            <span class="portfolio-category" style="background:rgba(240,106,158,0.15);color:#f06a9e;border:1px solid rgba(240,106,158,0.3)">Communication</span>
+            <span class="portfolio-year">2024</span>
+          </div>
+          <h3 class="portfolio-title">Africa Green Tec — Solar Monitoring</h3>
+          <p class="portfolio-desc">Real-time monitoring of photovoltaic installations, system performance analysis and customer account management via SteamaCo.</p>
+          <div class="portfolio-stack">
+            <span class="stack-tag">SteamaCo</span>
+            <span class="stack-tag">Data analysis</span>
+            <span class="stack-tag">Customer support</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ QR SECTION ════════════════════════ -->
+<section id="qr" aria-labelledby="qr-title">
+  <div class="wrapper">
+    <div class="qr-inner">
+      <div data-aos="fade-right">
+        <p class="section-label">Quick contact</p>
+        <h2 id="qr-title" class="section-title">Scan to<br/>connect with me</h2>
+        <p class="section-desc" style="margin-bottom:24px;">
+          One quick scan to access my LinkedIn profile, where you'll find my full background and professional recommendations.
+        </p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;">
+          <a href="https://linkedin.com/in/fatimata-walet-mohamed-ali-078727256" target="_blank" rel="noopener" class="btn-primary">
+            🔗 LinkedIn
+          </a>
+          <a href="mailto:fatimata.walet@e-polytechnique.ma" class="btn-secondary">
+            ✉ Direct email
+          </a>
+        </div>
+      </div>
+
+      <div data-aos="fade-left" data-aos-delay="100">
+        <div class="qr-box">
+          <div id="qrCanvas"></div>
+        </div>
+        <p class="qr-label">Scan me · LinkedIn Profile</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ CONTACT ═══════════════════════════ -->
+<section id="contact" aria-labelledby="contact-title">
+  <div class="wrapper">
+    <div data-aos="fade-up">
+      <p class="section-label">Contact</p>
+      <h2 id="contact-title" class="section-title">Let's start<br/>your project</h2>
+      <p class="section-desc">
+        Available for freelance projects, consulting or long-term collaborations. Response within 24h.
+      </p>
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-info" data-aos="fade-right" data-aos-delay="60">
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <p class="contact-item-label">Location</p>
+            <p class="contact-item-value">Bamako, Mali · Remote</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <p class="contact-item-label">Email</p>
+            <p class="contact-item-value">fatimata.walet@e-polytechnique.ma</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div>
+            <p class="contact-item-label">Phone / WhatsApp</p>
+            <p class="contact-item-value">+223 76 98 18 01</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🕐</div>
+          <div>
+            <p class="contact-item-label">Availability</p>
+            <p class="contact-item-value">Freelance missions · Full-time</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-card" data-aos="fade-left" data-aos-delay="120">
+        <div id="formContent">
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="fname">Full name *</label>
+                <input
+                  class="form-input"
+                  type="text"
+                  id="fname"
+                  name="name"
+                  placeholder="Jane Doe"
+                  autocomplete="name"
+                  data-err-msg="Please enter your name."
+                />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="femail">Email *</label>
+                <input
+                  class="form-input"
+                  type="email"
+                  id="femail"
+                  name="email"
+                  placeholder="you@example.com"
+                  autocomplete="email"
+                  data-err-msg="Invalid email address."
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="fsubject">Subject</label>
+              <select class="form-select" id="fsubject" name="subject">
+                <option value="">Select a subject</option>
+                <option value="dev">Web development</option>
+                <option value="com">Digital communication / SEO</option>
+                <option value="community">Community management</option>
+                <option value="data">Data / M&amp;E</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="fmsg">Message *</label>
+              <textarea
+                class="form-textarea"
+                id="fmsg"
+                name="message"
+                placeholder="Describe your project or need…"
+                data-err-msg="Your message is too short."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="form-submit">
+              Send message ✉
+            </button>
+          </form>
+        </div>
+
+        <div class="success-overlay" id="successOverlay" aria-live="polite">
+          <div class="success-check" role="img" aria-label="Success">✓</div>
+          <h3 class="success-title">Message sent!</h3>
+          <p class="success-text">Thank you for your message. I'll get back to you within 24 hours.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ FOOTER ════════════════════════════ -->
+<footer role="contentinfo">
+  <div class="footer-inner">
+    <p class="footer-copy">
+      © 2025 Fatimata Walet Mohamed Ali — Crafted with ♥ from Bamako
+    </p>
+    <div class="footer-socials">
+      <a class="social-link" href="https://linkedin.com/in/fatimata-walet-mohamed-ali-078727256" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+      <a class="social-link" href="mailto:fatimata.walet@e-polytechnique.ma" aria-label="Email">✉</a>
+      <a class="social-link" href="tel:+22376981801" aria-label="Phone">☎</a>
+    </div>
+  </div>
+</footer>
+
+<button class="scroll-top" aria-label="Back to top">↑</button>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
